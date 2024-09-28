@@ -1,0 +1,28 @@
+<!-- write a function that demonstrates the diffrence between var and let inside a loop. show how var 
+ causes hoisting issues -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var i;
+        for(i=0;i<3;i++)
+        console.log(i);
+        
+        let j;
+        for(j=0;j<3;j++)
+        console.log(j);
+
+        var k;
+        for(k=0;k<3;k++)
+        console.log(k);
+        
+    //error
+    </script>
+</body>
+</html>
